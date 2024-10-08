@@ -15,7 +15,7 @@ namespace Sistema_Prestamos_TI.Models
         public string PrimerApellido { get; set; }
         
         [Required(ErrorMessage = "El segundo apellido es obligatorio")]
-        public string PrimerApellido { get; set; }
+        public string SegundoApellido { get; set; }
         
         [Required(ErrorMessage = "El número de identificación es obligatorio")]
         public string Identificacion { get; set; }
